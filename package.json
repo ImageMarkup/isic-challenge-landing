@@ -7,6 +7,9 @@
   "devDependencies": {
     "vuepress": "^0.14.10"
   },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
   "scripts": {
     "serve": "vuepress dev site",
     "build": "vuepress build site"

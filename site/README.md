@@ -1,1 +1,3 @@
-# ISIC 2019 Challenge
+---
+home: true
+---

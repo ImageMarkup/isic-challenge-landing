@@ -4,7 +4,11 @@ actionText: Participate Now
 actionLink: /
 ---
 
-# ISIC 2019 Challenge
+<div class="main-content">
+
+# About the Challenge
+
+<section class="summary">
 
 ## Summary
 
@@ -13,6 +17,10 @@ The task for ISIC 2019 is to determine the disease classification of dermoscopic
 Participants are asked to submit automated predictions on a held-out test set by TBD. In addition
 to submitting predictions, each competitor is required to submit a link to a manuscript describing
 the methods used to generate predictions. Manuscripts should be submitted by TBD.
+
+</section><!-- .summary -->
+
+<section class="background">
 
 ## Background
 
@@ -36,42 +44,63 @@ As pigmented lesions occurring on the surface of the skin, melanoma is amenable 
 
 Dermoscopy is an imaging technique that eliminates the surface reflection of skin. By removing surface reflection, visualization of deeper levels of skin is enhanced. Prior research has shown that when used by expert dermatologists, dermoscopy provides improved diagnostic accuracy, in comparison to standard photography. As inexpensive consumer dermatoscope attachments for smart phones are beginning to reach the market, the opportunity for automated dermoscopic assessment algorithms to positively influence patient care increases.
 
+</section> <!-- .background -->
+
+<section class="timeline">
 
 ## Timeline
 
-- Beginning of challenge: April 2nd, 2019
-- Training data release: TBD
-- Test data release: TBD
-- Manuscript submission deadline: TBD
-- Test results submission deadline: TBD
-- Winners announced, and speaker invitations sent: TBD
-- [MICCAI2019 Workshop](http://www.miccai2019.org/): TBD
+- <span>Beginning of challenge <span class="date">April 2nd, 2019</span></span>
+- <span>Training data release <span class="date">TBD</span></span>
+- <span>Test data release <span class="date">TBD</span></span>
+- <span>Manuscript submission deadline <span class="date">TBD</span></span>
+- <span>Test results submission deadline <span class="date">TBD</span></span>
+- <span>Winners announced, and speaker invitations sent <span class="date">TBD</span></span>
+- <span>[MICCAI2019 Workshop](http://www.miccai2019.org/) <span class="date">TBD</span></span>
 
-<hr />
+</section>
 
-#### Sponsors
-Canfield Scientific
+<section class="meta-info features">
 
-##### Clinical Chair
-Harald Kittler, M.D.
-Medical University of Vienna, Vienna, Austria
+<div class="feature chairs">
 
-##### Computer Vision Chair
-Noel C. F. Codella, Ph.D.
-IBM Research, New York
+### Sponsors
+- Canfield Scientific
 
-#### Challenge Co-Chairs
-- M. Emre Celebi, Ph.D.
-University of Central Arkansas, Conway, Arkansas
-- Kristin Dana, Ph.D.
-Rutgers University, New Jersey
-- David Gutman, Ph.D.
-Rutgers University, New Jersey
-- Allan Halpern, M.D.
-Memorial Sloan Kettering Cancer Center, New York
-- Brian Helba
-Kitware, Inc., New York
-- Phillipp Tschandl, M.D. Ph.D.
-Medical University of Vienna, Vienna, Austria
+#### Clinical Chair
+- Harald Kittler, M.D.
+- Medical University of Vienna, Vienna, Austria
+
+#### Computer Vision Chair
+- Noel C. F. Codella, Ph.D.
+- IBM Research, New York
+
+</div>
+
+<div class="feature co-chairs">
+
+### Challenge Co-Chairs
+- **M. Emre Celebi, Ph.D.** <br>
+*University of Central Arkansas, Conway, Arkansas*
+- **Kristin Dana, Ph.D.** <br>
+*Rutgers University, New Jersey*
+- **David Gutman, Ph.D.** <br>
+*Rutgers University, New Jersey*
+- **Allan Halpern, M.D.** <br>
+*Memorial Sloan Kettering Cancer Center, New York*
+- **Brian Helba** <br>
+*Kitware, Inc., New York*
+- **Phillipp Tschandl, M.D. Ph.D.** <br>
+*Medical University of Vienna, Vienna, Austria*
+
+</div>
+
+<div class="feature disclaimer">
 
 *Note: Any organizations/companies affiliated with members of the organizing committee are not excluded from participation in the Challenge, but must assure that their submissions are completely independent of the members of the organizing committee.*
+
+</div>
+
+</section> <!-- .meta-info -->
+
+</div> <!-- .main-content -->

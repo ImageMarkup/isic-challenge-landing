@@ -5,7 +5,7 @@
 ## Download
 
 <form>
-<input type="email" placeholder="john.smith@aol.com" />
+<input type="email" placeholder="" />
 <input type="submit" value="Download" />
 </form>
 

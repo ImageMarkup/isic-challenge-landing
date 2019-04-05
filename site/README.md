@@ -4,6 +4,8 @@ actionText: Participate Now
 actionLink: /
 ---
 
+<track-email/>
+
 <div class="main-content">
 
 # About the Challenge

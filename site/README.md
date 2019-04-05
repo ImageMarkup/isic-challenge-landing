@@ -56,7 +56,7 @@ Dermoscopy is an imaging technique that eliminates the surface reflection of ski
 - <span>Manuscript submission deadline <span class="date">TBD</span></span>
 - <span>Test results submission deadline <span class="date">TBD</span></span>
 - <span>Winners announced, and speaker invitations sent <span class="date">TBD</span></span>
-- <span>[MICCAI2019 Workshop](http://www.miccai2019.org/) <span class="date">TBD</span></span>
+- <span>[MICCAI2019 Workshop](http://www.miccai2019.org/) <span class="date">October 13 or 17, 2019</span></span>
 
 </section>
 
@@ -65,33 +65,43 @@ Dermoscopy is an imaging technique that eliminates the surface reflection of ski
 <div class="feature chairs">
 
 ### Sponsors
-- Canfield Scientific
+- **Canfield Scientific**
+- **IBM**
+- **MetaOptima**
 
-#### Clinical Chair
-- Harald Kittler, M.D.
-- Medical University of Vienna, Vienna, Austria
+#### Clinical Chairs
+- **Josep Malvehy, M.D.** <br>
+*University Hospital Clinic of Barcelona, Barcelona, Spain*
+- **Allan Halpern, M.D.** <br>
+*Memorial Sloan Kettering Cancer Center, New York*
 
-#### Computer Vision Chair
-- Noel C. F. Codella, Ph.D.
-- IBM Research, New York
+#### Computer Vision Chairs
+- **Noel C. F. Codella, Ph.D.** <br>
+*IBM Research, New York*
 
 </div>
 
 <div class="feature co-chairs">
 
 ### Challenge Co-Chairs
+
 - **M. Emre Celebi, Ph.D.** <br>
 *University of Central Arkansas, Conway, Arkansas*
+- **Marc Combalia, M.S.** <br>
+*Fundació Clínic per a la Recerca Biomèdica, Barcelona, Spain*
 - **Kristin Dana, Ph.D.** <br>
 *Rutgers University, New Jersey*
 - **David Gutman, Ph.D.** <br>
 *Rutgers University, New Jersey*
-- **Allan Halpern, M.D.** <br>
-*Memorial Sloan Kettering Cancer Center, New York*
 - **Brian Helba** <br>
 *Kitware, Inc., New York*
+- **Harald Kittler, M.D.** <br>
+*Medical University of Vienna, Vienna, Austria*
+- **Veronica Rotemberg, M.D., Ph.D.** <br>
+*Memorial Sloan Kettering Cancer Center, New York*
 - **Phillipp Tschandl, M.D. Ph.D.** <br>
 *Medical University of Vienna, Vienna, Austria*
+
 
 </div>
 

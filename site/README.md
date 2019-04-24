@@ -1,7 +1,5 @@
 ---
 home: true
-actionText: Participate Now
-actionLink: /
 ---
 
 <track-email/>

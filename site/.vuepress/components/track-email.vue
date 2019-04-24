@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <div v-if="submitted">
-      You will be notified about updates
+  <div class="track-email">
+    <div v-if="submitted" class="success">
+      <i class="material-icons">done</i> You will be notified about updates
     </div>
     <div v-else>
-      <div v-if="errorMessage">{{errorMessage}}</div>
-      Notify me about updates to the challenge!
+      <div v-if="errorMessage" class="failure"><i class="material-icons">error</i> {{errorMessage}}</div>
+      <div class="track-email-content">Notify me about updates to the challenge!</div>
       <form @submit.prevent="onSubmit">
         <input v-model="email" placeholder="jane.doe@gmail.com" type="email">
         <input type="submit" value="Submit">

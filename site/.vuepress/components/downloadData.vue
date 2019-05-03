@@ -1,11 +1,16 @@
 <template>
   <div class="track-email">
     <div v-if="submitted" class="success">
-      <i class="material-icons">done</i> You will be notified about updates
+      <b>Training Data</b><br>
+      <div>
+        <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_Input.zip">ISIC_2019_Training_Input.zip</a><br>
+        <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_Metadata.csv">ISIC_2019_Training_Metadata.csv</a><br>
+        <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_GroundTruth.csv">ISIC_2019_Training_GroundTruth.csv</a><br>
+      </div>
     </div>
     <div v-else>
       <div v-if="errorMessage" class="failure"><i class="material-icons">error</i> {{errorMessage}}</div>
-      <div class="track-email-content">Notify me about updates to the challenge!</div>
+      <div class="track-email-content">Provide your email address to download the Training Data</div>
       <form @submit.prevent="onSubmit">
         <input v-model="email" placeholder="Enter your email address" type="email">
         <input type="submit" value="Submit">
@@ -44,25 +49,39 @@
 
         // Treat the 409 "email already exists" error message as a success
         if (fetchResult.ok || fetchResult.status === 409) {
-          this.submitted = true;
+          this.success();
         } else {
           this.errorMessage = 'Something went wrong, try again later.';
         }
       },
-    }
+      success () {
+        this.submitted = true;
+
+        try {
+          window.localStorage.setItem('emailSubmitted', 'true');
+        } catch (e) {
+          // No local storage, so email submission will not persist
+        }
+      },
+    },
+    created () {
+      if (window.localStorage.getItem('emailSubmitted') === 'true') {
+        this.submitted = true;
+      }
+    },
   };
 </script>
 
 <style lang="stylus" scoped>
 .track-email
-  background: #3eaf7c
-  color: #ffffff
-  margin-top: -45px
+  background: #e1e1e1
+  //color: #ffffff
+  //margin-top: -45px
   padding: 20px
   & > div
     align-items: center
-    display: flex
-    flex-wrap: wrap
+    //display: flex
+    //flex-wrap: wrap
     justify-content: center
     .failure
       align-items: center
@@ -80,6 +99,7 @@
       font-size: 18px
       font-weight: bold
       padding-right: 20px
+      padding-bottom: 20px
     input[type=email]
       border: 0
       border-radius: 3px

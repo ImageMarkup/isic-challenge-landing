@@ -32,10 +32,11 @@ the methods used to generate predictions.
 # Timeline
 
 - <span>Training data release <span class="date">May 3, 2019</span></span>
-- <span>Test data release <span class="date">TBD</span></span>
-- <span>Manuscript submission deadline <span class="date">TBD</span></span>
-- <span>Test results submission deadline <span class="date">TBD</span></span>
-- <span>Winners announced, and speaker invitations sent <span class="date">TBD</span></span>
+- <span>Test images release <span class="date">August 2, 2019</span></span>
+- <span>Submission deadline: images-only test <span class="date">August 9, 2019</span></span>
+- <span>Test metadata release <span class="date">August 9, 2019</span></span>
+- <span>Submission deadline: images and metadata test <span class="date">August 16, 2019</span></span>
+- <span>Winners announced, and speaker invitations sent <span class="date">August 23, 2019</span></span>
 - <span>[MICCAI2019 Workshop](http://www.miccai2019.org/) <span class="date">October 13 or 17, 2019</span></span>
 
 </section>

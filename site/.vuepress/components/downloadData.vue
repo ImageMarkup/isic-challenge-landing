@@ -64,7 +64,7 @@
         }
       },
     },
-    created () {
+    mounted () {
       if (window.localStorage.getItem('emailSubmitted') === 'true') {
         this.submitted = true;
       }

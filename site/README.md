@@ -8,7 +8,17 @@ home: true
 
 <section class="summary">
 
-# Summary
+# Background
+
+Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Dermoscopy
+is a skin imaging modality that has demonstrated improvement for diagnosis of skin cancer compared
+to unaided visual inspection. However, clinicians should receive adequate training for those
+improvements to be realized. In order to make expertise more widely available, the International
+Skin Imaging Collaboration (ISIC) has developed the ISIC Archive, an international repository of
+dermoscopic images, for both the purposes of clinical training, and for supporting technical
+research toward automated algorithmic analysis by hosting the ISIC Challenges.
+
+# Task
 
 The task for ISIC 2019 is classify dermoscopic images among nine different diagnostic categories:
 1. Melanoma
@@ -70,10 +80,8 @@ the methods used to generate predictions.
 *University of Central Arkansas, Conway, Arkansas*
 - **Marc Combalia, M.S.** <br>
 *Fundació Clínic per a la Recerca Biomèdica, Barcelona, Spain*
-- **Kristin Dana, Ph.D.** <br>
-*Rutgers University, New Jersey*
-- **David Gutman, Ph.D.** <br>
-*Rutgers University, New Jersey*
+- **David Gutman, M.D., Ph.D.** <br>
+*Emory University, Atlanta, USA*
 - **Brian Helba** <br>
 *Kitware, Inc., New York*
 - **Harald Kittler, M.D.** <br>

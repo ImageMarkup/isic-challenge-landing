@@ -19,8 +19,7 @@ dermoscopic images, for both the purposes of clinical training, and for supporti
 research toward automated algorithmic analysis by hosting the ISIC Challenges.
 
 # Task
-
-The task for ISIC 2019 is classify dermoscopic images among nine different diagnostic categories:
+The goal for ISIC 2019 is classify dermoscopic images among nine different diagnostic categories:
 1. Melanoma
 2. Melanocytic nevus
 3. Basal cell carcinoma
@@ -31,9 +30,17 @@ The task for ISIC 2019 is classify dermoscopic images among nine different diagn
 8. Squamous cell carcinoma
 9. None of the others
 
-Participants are asked to submit automated predictions on a held-out test set. In addition
-to submitting predictions, each competitor is required to submit a link to a manuscript describing
-the methods used to generate predictions.
+25,332 images are available for training across 8 different categories. Additionally, the test
+dataset (planned release August 2nd) will contain an additional outlier class not represented in
+the training data, which developed systems must be able to identify.
+
+Two tasks will be available for participation: 1) classify dermoscopic images without meta-data,
+and 2) classify images with additional available meta-data. Task 1's deadline will be August 9th.
+Task 2 will be August 16th, after release of test meta-data on August 9th. Participants of Task 2
+must submit to Task 1 as well, though participants can submit to Task 1 alone.
+
+In addition to submitting predictions, each competitor is required to submit a link to a manuscript
+describing the methods used to generate predictions.
 
 </section><!-- .summary -->
 

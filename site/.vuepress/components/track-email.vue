@@ -7,7 +7,7 @@
       <div v-if="errorMessage" class="failure"><i class="material-icons">error</i> {{errorMessage}}</div>
       <div class="track-email-content">Notify me about updates to the challenge!</div>
       <form @submit.prevent="onSubmit">
-        <input v-model="email" placeholder="Enter your email address" type="email">
+        <input v-model="email" placeholder="Enter your email address" type="email" name="email">
         <input type="submit" value="Submit">
       </form>
     </div>

@@ -30,10 +30,6 @@
     },
     methods: {
       async onSubmit() {
-        // Maintenance mode for stade
-        this.success();
-        return;
-        
         let fetchResult;
 
         try {

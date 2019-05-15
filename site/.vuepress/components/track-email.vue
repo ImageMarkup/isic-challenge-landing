@@ -25,9 +25,6 @@
     },
     methods: {
       async onSubmit() {
-        // Maintenance mode for stade
-        this.submitted = true;
-        return;
         let fetchResult;
 
         try {

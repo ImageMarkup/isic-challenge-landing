@@ -1,6 +1,7 @@
 module.exports = {
   title: 'ISIC 2019',
   description: 'Skin Lesion Analysis Towards Melanoma Detection',
+  ga: 'UA-68986534-4',
   dest: 'dist',
   themeConfig: {
     nav: [

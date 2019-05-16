@@ -71,11 +71,11 @@ describing the methods used to generate predictions.
 - **Josep Malvehy, M.D.** <br>
 *University Hospital Clinic of Barcelona, Barcelona, Spain*
 - **Allan Halpern, M.D.** <br>
-*Memorial Sloan Kettering Cancer Center, New York*
+*Memorial Sloan Kettering Cancer Center, New York City, NY, USA*
 
 #### Computer Vision Chairs
 - **Noel C. F. Codella, Ph.D.** <br>
-*IBM Research, New York*
+*IBM Research, Yorktown Heights, NY, USA*
 
 </div>
 
@@ -84,18 +84,18 @@ describing the methods used to generate predictions.
 ### Challenge Co-Chairs
 
 - **M. Emre Celebi, Ph.D.** <br>
-*University of Central Arkansas, Conway, Arkansas*
+*University of Central Arkansas, Conway, AR, USA*
 - **Marc Combalia, M.S.** <br>
 *Fundació Clínic per a la Recerca Biomèdica, Barcelona, Spain*
 - **David Gutman, M.D., Ph.D.** <br>
-*Emory University, Atlanta, USA*
+*Emory University, Atlanta, GA, USA*
 - **Brian Helba** <br>
-*Kitware, Inc., New York*
+*Kitware, Inc., Clifton Park, NY, USA*
 - **Harald Kittler, M.D.** <br>
 *Medical University of Vienna, Vienna, Austria*
 - **Veronica Rotemberg, M.D., Ph.D.** <br>
-*Memorial Sloan Kettering Cancer Center, New York*
-- **Phillipp Tschandl, M.D. Ph.D.** <br>
+*Memorial Sloan Kettering Cancer Center, New York City, NY, USA*
+- **Philipp Tschandl, M.D., Ph.D.** <br>
 *Medical University of Vienna, Vienna, Austria*
 
 

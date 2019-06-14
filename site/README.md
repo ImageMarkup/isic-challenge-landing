@@ -30,7 +30,7 @@ The goal for ISIC 2019 is classify dermoscopic images among nine different diagn
 8. Squamous cell carcinoma
 9. None of the others
 
-25,332 images are available for training across 8 different categories. Additionally, the test
+25,331 images are available for training across 8 different categories. Additionally, the test
 dataset (planned release August 2nd) will contain an additional outlier class not represented in
 the training data, which developed systems must be able to identify.
 

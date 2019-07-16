@@ -42,6 +42,15 @@ must submit to Task 1 as well, though participants can submit to Task 1 alone.
 In addition to submitting predictions, each competitor is required to submit a link to a manuscript
 describing the methods used to generate predictions.
 
+# Awards
+Cash prizes of $4,000, $2,000, and $1,000 will be awarded to the first, second, and third place 
+participants of image-only and meta-data tasks. USD will be awarded to winners of each of the
+tasks. The monetary prizes for the winners of the challenge will be awarded after the MICCAI 
+Workshop in Shenzhen, China, in October 2019. The prizes are being provided by Canfield Scientific,
+Inc., a US company, and are subject to any restrictions incumbent on the sponsor. Winners will be 
+asked to identify a recipient individual or entity who will be required to provide tax documentation
+(U.S. citizens- IRS form W-9, non-U.S. citizens Form W-8 BEN).
+
 </section><!-- .summary -->
 
 <section class="timeline">

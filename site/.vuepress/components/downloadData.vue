@@ -33,7 +33,7 @@
         let fetchResult;
 
         try {
-          fetchResult = await fetch('https://stade.challenge.isic-archive.com/api/tracker/emails', {
+          fetchResult = await fetch('https://challenge.isic-archive.com/api/tracker/emails', {
             method: 'POST',
             body: JSON.stringify({
               'email': this.email

@@ -2,11 +2,27 @@
   <div class="track-email">
     <div v-if="submitted" class="success">
       <b>Training Data</b><br>
-      <div>
-        <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_Input.zip">ISIC_2019_Training_Input.zip</a><br>
-        <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_Metadata.csv">ISIC_2019_Training_Metadata.csv</a><br>
-        <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_GroundTruth.csv">ISIC_2019_Training_GroundTruth.csv</a><br>
-      </div>
+      <ul>
+        <li>
+          <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_Input.zip">ISIC_2019_Training_Input.zip</a><br>
+          <i>25,331 JPEG images of skin lesions</i>
+        </li>
+        <li>
+          <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_Metadata.csv">ISIC_2019_Training_Metadata.csv</a><br>
+          <i>25,331 metadata entries of age, sex, general anatomic site, and common lesion identifier</i>
+        </li>
+        <li>
+          <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_GroundTruth.csv">ISIC_2019_Training_GroundTruth.csv</a><br>
+          <i>25,331 entries of gold standard lesion diagnoses</i>
+        </li>
+      </ul>
+      <b>Test Data</b><br>
+      <ul>
+        <li>
+          <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Test_Input.zip">ISIC_2019_Test_Input.zip</a><br>
+          <i>8,238 JPEG images of skin lesions</i>
+        </li>
+      </ul>
     </div>
     <div v-else>
       <div v-if="errorMessage" class="failure"><i class="material-icons">error</i> {{errorMessage}}</div>

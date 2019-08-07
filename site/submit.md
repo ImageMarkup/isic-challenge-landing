@@ -6,8 +6,8 @@ the  [ISIC Challenge automated submission system](https://challenge.isic-archive
 * **Approach**; describing the details of the algorithm which generated the submission
 * **Submission**; containing the actual predictions required by the task
 
-*All submissions must be made to the 
-[ISIC Challenge submission system](https://challenge.isic-archive.com/). Emailed or publicly 
+*All submissions must be made to the
+[ISIC Challenge submission system](https://challenge.isic-archive.com/). Emailed or publicly
 posted submissions will not be accepted or evaluated.*
 
 ## Team
@@ -58,11 +58,12 @@ recently uploaded will be used for final scoring.*
 The submission file encodes sets of binary classification confidences for each of the 9 disease
 states, indicating the diagnosis of each input lesion image.
 
-### Submission file format
+### Submission File Format
 *For the ISIC 2019 Challenge, the format of a submission file exactly matches that of the
 `ISIC_2019_Training_GroundTruth.csv` file.*
 
-A submission file is a single CSV (comma-separated value) file, with each input lesion response in a row. File columns must be:
+A submission file is a single CSV (comma-separated value) file, with each input lesion response in
+a row. File columns must be:
 * image: an input image identifier of the form `ISIC_0000000`
 * MEL: “Melanoma” diagnosis confidence
 * NV: “Melanocytic nevus” diagnosis confidence
@@ -89,6 +90,23 @@ sensitivity, although this is not required.
 
 Predicted diagnosis confidence values may vary independently, though exactly one disease state is
 actually present in each input lesion image.
+
+### Submission File Example
+A snippet of an example submission file is provided here:
+```csv
+image,MEL,NV,BCC,AK,BKL,DF,VASC,SCC,UNK
+ISIC_0000000,0.5723914558616224,0.7463878619687879,0.8076234232128179,0.9231897707170799,0.19332526246835713,0.6482625474437913,0.15089641515561825,0.11825691475790101,0.04267257654105516
+ISIC_0000001,0.9684305100247566,0.5872927315239898,0.916092863517633,0.8093387127031818,0.23901828955860294,0.05252914296507549,0.3436226223051383,0.8350598659947699,0.6641733252475985
+ISIC_0000002,0.506131598640143,0.23904223621096332,0.029747905783066964,0.8791070854374194,0.7577864003676547,0.15820430519230155,0.7691369933394947,0.38171398898367126,0.6782697508415045
+```
+
+Note several key elments:
+* A header row is provided
+* The `image` field uses values with an `ISIC_` prefix and without any `.jpg` file extensions
+* The values are floating point (`0` and `1` are invalid, but `0.0` and `1.0` are valid)
+* The row values do not necessarily sum to `1.0`
+* The greatest value of each row is considered the overall diagnosis prediction
+* All values greater than `0.5` are considered positive binary diagnosis predictions
 
 ### Submission Scoring
 The automated scoring of submission files is described in more detail

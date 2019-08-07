@@ -43,7 +43,9 @@ Creating an approach requires the following information:
 * External data use: If the approach was trained with any data beyond that provided by the ISIC
   Challenge task at hand, this must be disclosed.
 * Manuscript: An uploaded PDF document, at least 4 pages in length, describing the approach in
-  sufficient detail as to allow an expert to reproduce it.
+  sufficient detail as to allow an expert to reproduce it. A single PDF can be used across multiple
+  submissions if all methods are properly described. The PDFs will go through a manual review process. 
+  Inadequate documentation may result in disqualification.
 * Docker image *(optional)*: A Docker image tag, referencing a containerized instance of the
   approach's software. If provided, this must accept arbirary images as input, and follow the
   specifications detailed in the [`isic/isic-algorithm-example` Docker image](https://github.com/ImageMarkup/isic-algorithm-example).

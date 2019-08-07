@@ -35,8 +35,8 @@ dataset (planned release August 2nd) will contain an additional outlier class no
 the training data, which developed systems must be able to identify.
 
 Two tasks will be available for participation: 1) classify dermoscopic images without meta-data,
-and 2) classify images with additional available meta-data. Task 1's deadline will be August 9th.
-Task 2 will be August 16th, after release of test meta-data on August 9th. Participants of Task 2
+and 2) classify images with additional available meta-data. Task 1's deadline will be August 16th.
+Task 2 will be August 23th, after release of test meta-data on August 16th. Participants of Task 2
 must submit to Task 1 as well, though participants can submit to Task 1 alone.
 
 In addition to submitting predictions, each competitor is required to submit a link to a manuscript

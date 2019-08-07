@@ -23,38 +23,39 @@ more ambitious metric of normalized multiclass accuracy, as it is also closer to
 a dermatologist. This is also important for the extending reader study, where the winning
 algorithm(s) will be compared to physicians performance in classification of digital images.
 
+## Other Metrics
+Participants will be ranked and awards granted based only on the balanced multi-class accuracy metric.
+However, for scientific completeness, predicted responses will also have the following metrics
+computed (comparing prediction vs. ground truth) for each image:
+
+##### Individual Category Metrics
+* [sensitivity](https://en.wikipedia.org/wiki/Sensitivity_and_specificity#Sensitivity)
+* [specificity](https://en.wikipedia.org/wiki/Sensitivity_and_specificity#Specificity)
+* [accuracy](https://en.wikipedia.org/wiki/Accuracy_and_precision#In_binary_classification)
+* [area under the receiver operating characteristic curve (AUC)](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)
+* [mean average precision](http://fastml.com/what-you-wanted-to-know-about-mean-average-precision/)
+* [F1 score](https://en.wikipedia.org/wiki/F1_score)
+* [AUC integrated between 80% to 100% sensitivity (AUC80)]
+* [positive predictive value (PPV)](https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values)
+* [negative predictive value (NPV)](https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values)
+
+##### Aggregate Metrics
+* average AUC across all diagnoses
+* malignant vs. benign diagnoses category AUC
+
 ## Validation Scoring
 All submissions to the ISIC Challenge are immediately issued a validation score. *This validation
 score is not intended to be used for algorithm ranking or evaluation*, but is provided for a sanity
 check of submission data (e.g. to guard against instances where prediction labels are mismatched).
 
-The validation score is computed with the goal metric, taken against a small (~100),
-non-representative, pre-determined subset of images.
+The validation score is computed with the goal metric (balanced multi-class accuracy), taken against
+a small (~100), non-representative, pre-determined subset of images.
 
 For reference, a random submission generates a validation score of about 0.3. 
 
 ## Final Score Release
 Final scores and a public leaderboard are released shortly after the conclusion of the ISIC
 Challenge submission period.
-
-## Seconardary Metrics
-
-Participants will be ranked and awards granted based only on the balanced multiclass accuracy metric. However, for scientific completeness, predicted responses will also have the following metrics computed (comparing prediction vs. ground truth) for each image:
-
-**Individual Category Metrics:**
-* Sensitivity
-* Specificity
-* Accuracy
-* Area under the receiver operating characteristic curve (AUC)
-* Mean average precision
-* F1 score
-* AUC integrated between 80% to 100% sensitivity (AUC80) for Melanoma diagnosis only
-* Positive predictive value (PPV)
-* Negative predictive value (NPV)
-
-**Aggregate Metrics:**
-* Average AUC across all diagnoses
-* Malignant vs. benign diagnoses category AUC
 
 ## Transparency Statement
 The code of

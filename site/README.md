@@ -72,11 +72,11 @@ asked to identify a recipient individual or entity who will be required to provi
 # Timeline
 
 - <span>Training data release <span class="date">May 3, 2019</span></span>
-- <span>Test images release <span class="date">August 2, 2019</span></span>
-- <span>Submission deadline: images-only test <span class="date">August 9, 2019</span></span>
-- <span>Test metadata release <span class="date">August 9, 2019</span></span>
-- <span>Submission deadline: images and metadata test <span class="date">August 16, 2019</span></span>
-- <span>Winners announced, and speaker invitations sent <span class="date">August 23, 2019</span></span>
+- <span>Test images release <span class="date">August 5, 2019</span></span>
+- <span>Submission deadline: images-only test <span class="date">August 14, 2019</span></span>
+- <span>Test metadata release <span class="date">August 14, 2019</span></span>
+- <span>Submission deadline: images and metadata test <span class="date">August 21, 2019</span></span>
+- <span>Winners announced, and speaker invitations sent <span class="date">August 28, 2019</span></span>
 - <span>[MICCAI2019 Workshop](http://www.miccai2019.org/) <span class="date">October 13 or 17, 2019</span></span>
 
 </section>

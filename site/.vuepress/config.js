@@ -9,6 +9,7 @@ module.exports = {
       { text: 'Background', link: '/background'},
       { text: 'Data', link: '/data'},
       { text: 'Submission', link: '/submit'},
+      { text: 'Evaluation', link: '/evaluation'},
       // { text: 'Leaderboard', link: '/leaderboard'},
       // { text: 'Workshop 2019', link: 'https://workshop2019.isic-archive.com'},
       { text: 'Contact', link: 'https://forum.isic-archive.com'},

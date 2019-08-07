@@ -89,3 +89,7 @@ sensitivity, although this is not required.
 
 Predicted diagnosis confidence values may vary independently, though exactly one disease state is
 actually present in each input lesion image.
+
+### Submission Scoring
+The automated scoring of submission files is described in more detail
+[on the evaluation details page](./evaluation.md).

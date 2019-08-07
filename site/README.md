@@ -45,8 +45,16 @@ describing the methods used to generate predictions.
 # Submission
 Submissions are made to the
 [ISIC Challenge submission system](https://challenge.isic-archive.com/), which provides automated
-format validation, pre-scoring, metadata editing capabilties. More details about the submission
-process may be found [on the submission documentation page](./submit.md)
+format validation, pre-scoring, metadata editing capabilties.
+
+More details about the submission process may be found [on the submission details page](./submit.md).
+
+# Evaluation
+Evaluation of algorithms is entirely automated, and rankings are determined by balanced multi-class
+accuracy. At the conclusion of the ISIC Challenge, all scores are posted to a public leaderboard,
+providing official rankings and more detailed metrics for every submission.
+
+More details about the evaluation procedure may be found [on the evaluation details page](./evaluation.md).
 
 # Awards
 Cash prizes of $4,000, $2,000, and $1,000 will be awarded to the first, second, and third place 

@@ -29,7 +29,7 @@ be frozen.
 
 ## Approach
 Within a team, one approach should be created for each unique algorithm. Approach algorithms may
-differ significantly, or simply us different hyperparameters, but distinctions should be rigorously
+differ significantly, or simply use different hyperparameters, but distinctions should be rigorously
 defined.
 
 *For the ISIC 2019 Challenge, a maximum of three (3) approaches may be created.* If you accidentally

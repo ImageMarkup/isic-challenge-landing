@@ -42,6 +42,12 @@ must submit to Task 1 as well, though participants can submit to Task 1 alone.
 In addition to submitting predictions, each competitor is required to submit a link to a manuscript
 describing the methods used to generate predictions.
 
+# Submission
+Submissions are made to the
+[ISIC Challenge submission system](https://challenge.isic-archive.com/), which provides automated
+format validation, pre-scoring, metadata editing capabilties. More details about the submission
+process may be found [on the submission documentation page](./submit.md)
+
 # Awards
 Cash prizes of $4,000, $2,000, and $1,000 will be awarded to the first, second, and third place 
 participants of image-only and meta-data tasks. USD will be awarded to winners of each of the

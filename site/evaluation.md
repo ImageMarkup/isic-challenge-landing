@@ -38,5 +38,5 @@ Challenge submission period.
 ## Transparency Statement
 The code of
 [the `isic-challenge-scoring` package](https://github.com/ImageMarkup/isic-challenge-scoring/)
-is used for actual score computation. This code is open source, permissively licened, and published,
+is used for actual score computation. This code is open source, permissively licensed, and published,
 to facilitate external auditing.

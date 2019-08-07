@@ -37,6 +37,25 @@ For reference, a random submission generates a validation score of about 0.3.
 Final scores and a public leaderboard are released shortly after the conclusion of the ISIC
 Challenge submission period.
 
+## Seconardary Metrics
+
+Participants will be ranked and awards granted based only on the balanced multiclass accuracy metric. However, for scientific completeness, predicted responses will also have the following metrics computed (comparing prediction vs. ground truth) for each image:
+
+**Individual Category Metrics:**
+* Sensitivity
+* Specificity
+* Accuracy
+* Area under the receiver operating characteristic curve (AUC)
+* Mean average precision
+* F1 score
+* AUC integrated between 80% to 100% sensitivity (AUC80) for Melanoma diagnosis only
+* Positive predictive value (PPV)
+* Negative predictive value (NPV)
+
+**Aggregate Metrics:**
+* Average AUC across all diagnoses
+* Malignant vs. benign diagnoses category AUC
+
 ## Transparency Statement
 The code of
 [the `isic-challenge-scoring` package](https://github.com/ImageMarkup/isic-challenge-scoring/)

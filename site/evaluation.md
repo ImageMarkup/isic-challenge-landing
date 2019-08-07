@@ -31,6 +31,8 @@ check of submission data (e.g. to guard against instances where prediction label
 The validation score is computed with the goal metric, taken against a small (~100),
 non-representative, pre-determined subset of images.
 
+For reference, a random submission generates a validation score of about 0.3. 
+
 ## Final Score Release
 Final scores and a public leaderboard are released shortly after the conclusion of the ISIC
 Challenge submission period.

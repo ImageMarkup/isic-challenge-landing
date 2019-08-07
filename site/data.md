@@ -6,7 +6,7 @@
 
 ## Submission Instructions
 
-For details pertaining to submission formats and instructions, please visit the ISIC Forums: https://forum.isic-archive.com/c/challenge-2019
+For details pertaining to submission formats and instructions, please visit the [ISIC Forums](https://forum.isic-archive.com/c/challenge-2019).
 
 
 ## Copyright and Attribution

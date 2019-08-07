@@ -4,6 +4,11 @@
 
 <download-data/>
 
+## Submission Instructions
+
+For details pertaining to submission formats and instructions, please visit the ISIC Forums: https://forum.isic-archive.com/c/challenge-2019
+
+
 ## Copyright and Attribution
 
 The images and metadata of the "ISIC 2019: Training" data are licensed under a

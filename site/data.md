@@ -36,6 +36,10 @@ full citations:
 > “Skin Lesion Analysis Toward Melanoma Detection: A Challenge at the 2017 International Symposium
 > on Biomedical Imaging (ISBI), Hosted by the International Skin Imaging Collaboration (ISIC)”,
 > 2017; arXiv:1710.05006.
+>
+> [3] Marc Combalia, Noel C. F. Codella, Veronica Rotemberg, Brian Helba, Veronica Vilaplana, Ofer Reiter, 
+> Allan C. Halpern, Susana Puig, Josep Malvehy: “BCN20000: Dermoscopic Lesions in the Wild”, 2019; 
+> arXiv:1908.02288.
 
 ## Data Provenance
 

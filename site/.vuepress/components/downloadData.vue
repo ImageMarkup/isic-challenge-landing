@@ -22,6 +22,10 @@
           <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Test_Input.zip">ISIC_2019_Test_Input.zip</a><br>
           <i>8,238 JPEG images of skin lesions</i>
         </li>
+        <li>
+          <a href="https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Test_Metadata.csv">ISIC_2019_Test_Metadata.csv</a><br>
+          <i>8,238 metadata entries of age, sex, and general anatomic site</i>
+        </li>
       </ul>
     </div>
     <div v-else>

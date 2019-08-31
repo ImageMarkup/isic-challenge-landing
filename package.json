@@ -1,14 +1,17 @@
 {
-  "name": "isic-challenge-landing",
+  "name": "@isic/challenge-landing",
   "version": "1.0.0",
   "description": "ISIC Challenge landing page at challenge.isic-archive.com",
   "repository": "git@github.com:ImageMarkup/isic-challenge-landing.git",
   "license": "Apache-2.0",
-  "devDependencies": {
-    "vuepress": "^0.14.10"
+  "dependencies": {
+    "@isic/challenge-leaderboard": "^0.1.2",
+    "material-design-icons-iconfont": "^5.0.1",
+    "vuetify": "^1.5",
+    "vuex": "^3.1.1"
   },
-  "resolutions": {
-    "webpack-dev-middleware": "3.6.0"
+  "devDependencies": {
+    "vuepress": "^1.0.3"
   },
   "scripts": {
     "serve": "vuepress dev site",

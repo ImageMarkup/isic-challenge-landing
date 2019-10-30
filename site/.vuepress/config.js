@@ -20,5 +20,13 @@ module.exports = {
     toc: {
       includeLevel: [2, 3, 4]
     }
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-68986534-4'
+      }
+    ]
+  ]
 };

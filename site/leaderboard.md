@@ -4,7 +4,10 @@ pageClass: leaderboard-page
 
 <v-app>
 <v-content>
-<Leaderboard :challenge-id="2019"/>
+<Leaderboard
+  challenge-id="39"
+  by-team-default
+/>
 </v-content>
 </v-app>
 

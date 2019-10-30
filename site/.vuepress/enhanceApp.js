@@ -1,12 +1,13 @@
 // Vuetify
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
-import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import '@mdi/font/css/materialdesignicons.css';
 
 // Vuex
 import Vuex from 'vuex';
-import store from '@isic/challenge-leaderboard/src/store';
 
+// Leaderboard
+import leaderboardPlugin from '@isic/challenge-leaderboard/src/plugin';
 import Leaderboard from '@isic/challenge-leaderboard/src/components/Leaderboard.vue';
 
 export default ({
@@ -15,8 +16,13 @@ export default ({
   router,
   siteData
 }) => {
-  Vue.use(Vuetify, {});
+  Vue.use(Vuetify);
+  options.vuetify = new Vuetify({});
+
   Vue.use(Vuex);
-  options.store = new Vuex.Store(store);
+  const store = new Vuex.Store({});
+  leaderboardPlugin(store);
+  options.store = store;
+
   Vue.component('Leaderboard', Leaderboard);
 }

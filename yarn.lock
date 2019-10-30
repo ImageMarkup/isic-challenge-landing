@@ -573,10 +573,10 @@
     "@babel/helper-regex" "^7.4.4"
     regexpu-core "^4.5.4"
 
-"@babel/polyfill@^7.4.0":
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.4.4.tgz#78801cf3dbe657844eeabf31c1cae3828051e893"
-  integrity sha512-WlthFLfhQQhh+A2Gn5NSFl0Huxz36x86Jn+E9OW7ibK8edKPq+KLy4apM1yDpQ8kJOVi1OVjpP4vSDLdrI04dg==
+"@babel/polyfill@^7.6.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.6.0.tgz#6d89203f8b6cd323e8d946e47774ea35dc0619cc"
+  integrity sha512-q5BZJI0n/B10VaQQvln1IlDK3BTBJFbADx7tv+oXDPIDZuTo37H5Adb9jhlXm/fEN4Y7/64qD9mnrJJG7rmaTw==
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
@@ -678,16 +678,23 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@isic/challenge-leaderboard@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@isic/challenge-leaderboard/-/challenge-leaderboard-0.1.2.tgz#a92046d3a2de691c867ba8f4132c4c6bc9217286"
-  integrity sha512-AdlOdEGe7cETYOKHs8iEf+uplh6GInrPt4oDobiy0tNbGMJwVmwUcPGOuo0VtshyBxN48bzGObxBghHaBsFZhw==
+"@isic/challenge-leaderboard@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@isic/challenge-leaderboard/-/challenge-leaderboard-0.1.5.tgz#e4db794685ccbd7c3fc1650736d4dff06a7933e6"
+  integrity sha512-DMZnOeCYNb/1V+ZcAMcZrpTlmnaeTNw0CY9LLbpQ5tGb8qucWsudI95j/ZFVrN7soLTAD96Wg0wAsI7wBsAGjg==
   dependencies:
-    "@babel/polyfill" "^7.4.0"
+    "@babel/polyfill" "^7.6.0"
+    "@mdi/font" "^4.5.95"
     axios "^0.19.0"
+    core-js "^3.3.2"
     vue "^2.6.10"
-    vuetify "^1.5.7"
+    vuetify "^2.1.7"
     vuex "^3.1.1"
+
+"@mdi/font@^4.5.95":
+  version "4.5.95"
+  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-4.5.95.tgz#43c0d2e7b08d4221a778f58d899455d0c45916ed"
+  integrity sha512-AjR2Zgu1feBXWlTfEjD6JQqLAMCqYn2Gzia5PWqFnysvz5F6JmPHtQFldIHXqyv2s/FwME7ZDBc5N86NEHbyvQ==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -2106,6 +2113,11 @@ core-js@^2.6.5:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
   integrity sha512-HOpZf6eXmnl7la+cUdMnLvUxKNqLUzJvgIziQ0DiF3JwSImNphIqdGqzj6hIKyX04MmV0poclQ7+wjWvxQyR2A==
+
+core-js@^3.3.2:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.3.5.tgz#58d20f48a95a07304b62ff752742b82b56431ed8"
+  integrity sha512-0J3K+Par/ZydhKg8pEiTcK/9d65/nqJOzY62uMkjeBmt05fDOt/khUVjDdh8TpeIuGQDy1yLDDCjiWN/8pFIuw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -4384,11 +4396,6 @@ markdown-it@^8.4.1:
     linkify-it "^2.0.0"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
-
-material-design-icons-iconfont@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/material-design-icons-iconfont/-/material-design-icons-iconfont-5.0.1.tgz#371875ed7fe9c8c520bc7123c3231feeab731c31"
-  integrity sha512-Xg6rIdGrfySTqiTZ6d+nQbcFepS6R4uKbJP0oAqyeZXJY/bX6mZDnOmmUJusqLXfhIwirs0c++a6JpqVa8RFvA==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -7116,10 +7123,10 @@ vuepress@^1.0.3:
     envinfo "^7.2.0"
     opencollective-postinstall "^2.0.2"
 
-vuetify@^1.5, vuetify@^1.5.7:
-  version "1.5.18"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.5.18.tgz#1522d7ef7686b4473bb67b274ae8bb7bca514d13"
-  integrity sha512-TLtVYBlajKk+I99rUvQ7c/qlSJ3gqZZKkBaVWXy5bIDFzUyIChIIcaZM7k+J/JumxQYJqnJ9H24rAjddemWalQ==
+vuetify@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.1.7.tgz#a4b0dbf4d9d149f1be0706f76a9532f4f0d32f1e"
+  integrity sha512-BU+H03I4Daf/0fZP2pXxfo2sfhTf0XVeY2o+LJROJKiHbGofC2n9y3kcTD04c9h7W23q5CDrqaP9FEzkxudDqQ==
 
 vuex@^3.1.1:
   version "3.1.1"

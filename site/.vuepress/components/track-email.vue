@@ -57,7 +57,7 @@
 .track-email
   background: #3eaf7c
   color: #ffffff
-  margin-top: -45px
+  margin-top: -20px
   padding: 20px
   & > div
     align-items: center
@@ -88,6 +88,7 @@
       padding: 8px 10px
       transition: .5s
       min-width: 320px
+      background-color white
       &:focus
         background: lighten(#3eaf7c, 85%)
         &::placeholder

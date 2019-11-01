@@ -677,15 +677,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@isic/challenge-leaderboard@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@isic/challenge-leaderboard/-/challenge-leaderboard-0.1.5.tgz#e4db794685ccbd7c3fc1650736d4dff06a7933e6"
-  integrity sha512-DMZnOeCYNb/1V+ZcAMcZrpTlmnaeTNw0CY9LLbpQ5tGb8qucWsudI95j/ZFVrN7soLTAD96Wg0wAsI7wBsAGjg==
+"@isic/challenge-leaderboard@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@isic/challenge-leaderboard/-/challenge-leaderboard-0.1.6.tgz#837b013d4428ce1a5a5c32bd90c30390f20faf76"
+  integrity sha512-APszSRduYawoZn7hXjjIhcjBeOJqPU/EK1STwHVXF6cLIKKqhs8JiiY9Z590UCUHRib9Dmkur+ETDKcpUVpLgQ==
   dependencies:
     "@babel/polyfill" "^7.6.0"
     "@mdi/font" "^4.5.95"
     axios "^0.19.0"
     core-js "^3.3.2"
+    lodash "^4.17.15"
+    plotly.js-basic-dist "^1.51.0"
     vue "^2.6.10"
     vuetify "^2.1.7"
     vuex "^3.1.1"
@@ -5245,6 +5247,11 @@ pkg-up@^2.0.0:
   integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
   dependencies:
     find-up "^2.1.0"
+
+plotly.js-basic-dist@^1.51.0:
+  version "1.51.0"
+  resolved "https://registry.yarnpkg.com/plotly.js-basic-dist/-/plotly.js-basic-dist-1.51.0.tgz#1105e903a68a1f1eefaa13174368628f90459b00"
+  integrity sha512-dMToiVwFSMh9L+A3qyTkdWuqcrBEoWsmSFt9t+CU8NczzktS7qa7LC9rOgJHHR9j2V7YC5Yc+Q079unRRy0C4w==
 
 portfinder@^1.0.13, portfinder@^1.0.25:
   version "1.0.25"

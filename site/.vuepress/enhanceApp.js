@@ -8,7 +8,6 @@ import Vuex from 'vuex';
 
 // Leaderboard
 import leaderboardPlugin from '@isic/challenge-leaderboard/src/plugin';
-import Leaderboard from '@isic/challenge-leaderboard/src/components/Leaderboard.vue';
 
 export default ({
   Vue,
@@ -23,6 +22,4 @@ export default ({
   const store = new Vuex.Store({});
   leaderboardPlugin(store);
   options.store = store;
-
-  Vue.component('Leaderboard', Leaderboard);
 }

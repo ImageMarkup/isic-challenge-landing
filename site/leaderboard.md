@@ -4,7 +4,7 @@ pageClass: leaderboard-page
 
 <v-app>
 <v-content>
-<Leaderboard
+<DynamicLoadLeaderboard
   challenge-id="39"
   by-team-default
 />

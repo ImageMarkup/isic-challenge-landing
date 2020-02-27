@@ -11,6 +11,7 @@ module.exports = {
       { text: 'Submission', link: '/submit'},
       { text: 'Evaluation', link: '/evaluation'},
       { text: 'Leaderboard', link: '/leaderboard'},
+      { text: 'Live Leaderboard', link: '/live-leaderboard'},
       // { text: 'Workshop 2019', link: 'https://workshop2019.isic-archive.com'},
       { text: 'Contact', link: 'https://forum.isic-archive.com'},
     ],

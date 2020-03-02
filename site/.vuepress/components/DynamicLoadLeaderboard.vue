@@ -4,33 +4,40 @@
     :is="Leaderboard"
     :challenge-id="challengeId"
     :by-team-default="byTeamDefault"
+    :default-tab="defaultTab"
   />
 </template>
 
 <script>
 export default {
-  name: 'DynamicLoadLeaderboard',
+  name: "DynamicLoadLeaderboard",
 
   props: {
     challengeId: {
       type: String,
-      required: true,
+      required: true
     },
     byTeamDefault: {
       type: Boolean,
-      default: false,
+      default: false
     },
+    defaultTab: {
+      type: Number,
+      default: undefined
+    }
   },
 
   data() {
     return {
       Leaderboard: null
-    }
+    };
   },
 
-  async mounted () {
-    const LeaderboardModule = await import('@isic/challenge-leaderboard/src/components/Leaderboard.vue');
+  async mounted() {
+    const LeaderboardModule = await import(
+      "@isic/challenge-leaderboard/src/components/Leaderboard.vue"
+    );
     this.Leaderboard = LeaderboardModule.default;
-  },
-}
+  }
+};
 </script>

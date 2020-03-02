@@ -6,6 +6,7 @@ pageClass: leaderboard-page
 <v-content>
 <DynamicLoadLeaderboard
   challenge-id="38"
+  default-tab="3"
 />
 </v-content>
 </v-app>

@@ -5,14 +5,14 @@
   "repository": "git@github.com:ImageMarkup/isic-challenge-landing.git",
   "license": "Apache-2.0",
   "dependencies": {
-    "@isic/challenge-leaderboard": "^1.0.1",
-    "@mdi/font": "^4.5.95",
-    "vuetify": "^2.1.7",
-    "vuex": "^3.1.1"
+    "@isic/challenge-leaderboard": "^1.0.3",
+    "@mdi/font": "^5.3.45",
+    "vuetify": "^2.2.34",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
-    "vuepress": "^1.2.0"
+    "@vuepress/plugin-google-analytics": "^1.5.1",
+    "vuepress": "^1.5.1"
   },
   "scripts": {
     "serve": "vuepress dev site",

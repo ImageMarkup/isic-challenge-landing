@@ -3,11 +3,11 @@ pageClass: leaderboard-page
 ---
 
 <v-app>
-<v-content>
+<v-main>
 <DynamicLoadLeaderboard
   challenge-id="38"
 />
-</v-content>
+</v-main>
 </v-app>
 
 <style lang="stylus">
